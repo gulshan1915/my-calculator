@@ -8,7 +8,6 @@ function clearResult(){
     var result = document.getElementById("result");
     result.value =  ""
 }
-
 function clearResult(){
     var result = document.getElementById("result");
     result.value =  "0"
