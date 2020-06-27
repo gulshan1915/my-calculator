@@ -8,20 +8,17 @@
 </head>
 <body>
     
-   <div  >
-    <h1>CALCULATOR</h1>
-    <div class="container">
-    
-        <div class="row">
+    <div class="container" class="main">
+        <div class="row1">
             <div class="col1">
                 <input id="result" class="result" type="text">
             </div>
         </div>
         <div class="row">
-            <button class="clearBtn" onclick="clearResult(0)">C</button>
+            <button class="clearBtn" onclick="clearResult()">C</button>
             <button class="btn" onclick="getNumber('/')">/</button>
-            <button class="btn" onclick="getNumber('%')">%</button>
-            <button class="btn" onclick="getNumber('1/x')">1/x</button>
+            <button class="btn" onclick="getNumber('(')">(</button>
+            <button class="btn" onclick="getNumber(')')">)</button>
         </div>
         <div class="row">
         <button class="btn" onclick="getNumber('7')">7</button>
@@ -47,8 +44,8 @@
             <button class="btn" onclick="getNumber('.')">.</button>
             <button class="btn" onclick="getResult('')">=</button>
             </div> 
-    </div>
-</div>
+    </div>  
+
 
 </body>
 <script src="app.js"></script>
